@@ -1,13 +1,14 @@
 package Base;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Test {
+public class Test_J {
     public static WebDriver driver;
 
-    @org.testng.annotations.Test
-    public void initialize(String[] args) {
+    @Test
+    public void initialize() {
 
         System.setProperty("webdriver.chrome.driver", "/Users/swatisingh/Documents/DevTools/chromedriver");
         driver = new ChromeDriver();

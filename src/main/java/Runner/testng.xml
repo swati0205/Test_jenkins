@@ -4,12 +4,12 @@
     <test name="Test Basics 1">
 
         <classes>
-            <class name="Base.Test"/>
+            <class name="Base.Test_J"/>
         </classes>
-    </test> <!-- Test -->
+    </test> <!-- Test_J -->
 
 
 
 
-    <!-- Test -->
+    <!-- Test_J -->
 </suite> <!-- Suite -->
