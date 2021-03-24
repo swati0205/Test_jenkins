@@ -7,6 +7,18 @@
     <groupId>org.example</groupId>
     <artifactId>Test_Jenkins</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.example</groupId>
+                <artifactId>Test_Jenkins</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <configuration>
+                    <mainClass>Base.Test</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
